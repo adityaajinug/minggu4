@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>LATIHAN MINGGU KE 3</title>
+    <title>LATIHAN MINGGU KE 4</title>
   </head>
   <body>
   <div class="container">
@@ -18,13 +18,14 @@
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">NIM</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" name="nim">
+                            <input type="text" class="form-control" name="nim" Required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Program Studi</label>
                         <div class="col-sm-10">
-                            <select class="form-control" name="prodi">
+                            <select class="form-control" name="prodi" Required>
+                                <option >--Pilih Prodi--</option>
                                 <option value="Teknik Informatika">Teknik Informatika</option>
                                 <option value="Sistem Informasi">Sistem informasi</option>
                                 <option value="Teknik Informatika D3">Teknik Informatika D3</option>
@@ -34,19 +35,19 @@
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Nilai Tugas</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control" name="tugas">
+                            <input type="number" class="form-control" name="tugas" Required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Nilai UTS</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control" name="uts">
+                            <input type="number" class="form-control" name="uts" Required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Nilai UAS</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control" name="uas">
+                            <input type="number" class="form-control" name="uas" Required>
                         </div>
                     </div>
                     <div class="form-group row">
